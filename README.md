@@ -10,6 +10,12 @@ $ sudo docker-compose build
 $ sudo docker-compose up -d
 ```
 
+## docker buildが上手く行かないとき
+```
+//以下を実行する（777が怖ければ任意のパーミッションに変更）
+sudo chmod 777 $HOME/.docker/buildx/current
+```
+
 ## 書籍について
 
 書名

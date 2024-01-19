@@ -3,6 +3,7 @@ version: "3"
 services:
   nginx:
     build: ./nginx
+    platform: linux/amd64
     ports:
       - 10000:80
       - 20000:80

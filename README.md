@@ -6,8 +6,8 @@
 Docker Composeを利用できる場合には、以下の要領でDockerイメージをビルドおよび起動することでも利用可能です。
 
 ```shell
-$ sudo docker-compose build
-$ sudo docker-compose up -d
+$ make build
+$ make run
 ```
 
 ## docker buildが上手く行かないとき
